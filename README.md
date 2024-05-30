@@ -41,4 +41,30 @@ git commit -m "Remove the last created file"
 git push origin master
 
 
+# Git Commands Practice
+
+## Branch Management
+
+### Create a New Branch
+
+Create and switch to a new branch:
+
+```sh
+git checkout -b new-branch
+
+git branch
+
+git branch -r
+
+git branch -a
+
+git branch -m new-branch-name
+
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+git remote -v
+
+git fetch origin
+
+git push origin master
 
